@@ -2,10 +2,10 @@
 // Distributed under an MIT license: http://codemirror.net/LICENSE
 
 var CodeMirror = require("codemirror");
-var diff_match_patch = require("diff_match_patch")
-var DIFF_INSERT = require("diff_match_patch").DIFF_INSERT
-var DIFF_DELETE = require("diff_match_patch").DIFF_DELETE
-var DIFF_EQUAL = require("diff_match_patch").DIFF_EQUAL
+var diff_match_patch = require("diff-match-patch")
+var DIFF_INSERT = require("diff-match-patch").DIFF_INSERT
+var DIFF_DELETE = require("diff-match-patch").DIFF_DELETE
+var DIFF_EQUAL = require("diff-match-patch").DIFF_EQUAL
 
 "use strict";
 
